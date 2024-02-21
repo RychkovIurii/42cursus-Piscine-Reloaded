@@ -1,0 +1,30 @@
+mkdir test0
+chmod 715 test0
+touch -amt 202406012047 test0
+
+
+echo 123 > test1
+chmod 714 test1
+touch -amt 202406012146 test1
+
+
+mkdir test2
+chmod 504 test2
+touch -amt 202406012245 test2
+
+echo > test3
+echo > test4
+chmod 404 test3
+chmod 641 test4
+touch -amt 202406012344 test3
+ln test3 test5
+echo 1 > test4
+touch -amt 202406012343 test4
+
+ln -s test0 test6
+chmod -h 755 test6
+touch -hamt 202406012220 test6
+touch -amt 202406012047 test0
+
+tar -cf exo.tar *
+
