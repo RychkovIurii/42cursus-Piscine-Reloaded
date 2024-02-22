@@ -6,30 +6,31 @@
 /*   By: irychkov <irychkov@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/22 13:01:18 by irychkov          #+#    #+#             */
-/*   Updated: 2024/02/22 14:45:03 by irychkov         ###   ########.fr       */
+/*   Updated: 2024/02/22 15:12:26 by irychkov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-
-void ft_putchar(char c)
+/*
+void	ft_putchar(char c)
 {
-    write(1, &c, 1);
+	write(1, &c, 1);
 }
-
-void ft_print_numbers(void)
+*/
+void	ft_print_numbers(void)
 {
-    char    c;
-    
-    c = '0';
-    while (c <= '9')
-    {
-        ft_putchar(c);
-        c++;
-    }
-}
+	char	c;
 
-int main(void)
-{
-    ft_print_numbers();
+	c = '0';
+	while (c <= '9')
+	{
+		ft_putchar(c);
+		c++;
+	}
 }
+/*
+int	main(void)
+{
+	ft_print_numbers();
+}
+*/
