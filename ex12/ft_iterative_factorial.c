@@ -6,7 +6,7 @@
 /*   By: irychkov <irychkov@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 17:49:24 by irychkov          #+#    #+#             */
-/*   Updated: 2024/03/27 17:49:24 by irychkov         ###   ########.fr       */
+/*   Updated: 2024/03/27 20:52:45 by irychkov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@ int	ft_iterative_factorial(int nb)
 	}
 	return (result);
 }
-
+/*
 #include <stdio.h>
 int main()
 {
@@ -38,4 +38,5 @@ int main()
 	printf("%d = 120\n", ft_iterative_factorial(5));
 	printf("%d = 40320\n", ft_iterative_factorial(8));
 	printf("%d = 0\n", ft_iterative_factorial(13));
-}
+}*/
+// ./a.out  0.00s user 0.00s system 1% cpu 0.288 total
