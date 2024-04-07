@@ -6,10 +6,10 @@
 /*   By: irychkov <irychkov@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/07 19:42:14 by irychkov          #+#    #+#             */
-/*   Updated: 2024/04/07 19:46:47 by irychkov         ###   ########.fr       */
+/*   Updated: 2024/04/07 20:04:13 by iurii.rychkov    ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
+#ifndef FT_H
 # define FT_H
 
 int ft_display_file(char *filename);
