@@ -6,7 +6,7 @@
 /*   By: irychkov <irychkov@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/07 16:54:18 by irychkov          #+#    #+#             */
-/*   Updated: 2024/04/07 17:09:56 by irychkov         ###   ########.fr       */
+/*   Updated: 2024/04/07 17:10:44 by irychkov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ int ft_count_if(char **tab, int (*f)(char*))
 	}
 	return counter;
 }
-
+/* 
 #include <stdio.h>
 
 int starts_with_a(char *str) {
@@ -42,4 +42,4 @@ int main() {
 	printf("Words that start with 'a': %d\n", ft_count_if(words, &starts_with_a));
 
 	return 0;
-}
+} */
