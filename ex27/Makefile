@@ -6,7 +6,7 @@
 #    By: irychkov <irychkov@student.hive.fi>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/04/07 19:34:06 by irychkov          #+#    #+#              #
-#    Updated: 2024/04/07 19:46:01 by irychkov         ###   ########.fr        #
+#    Updated: 2024/04/07 20:36:03 by irychkov         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,10 +18,6 @@ HEAD	= ./includes/ft.h
 
 NAME	= ft_display_file
 
-AR		= ar rc
-
-LIB		= ranlib
-
 CC		= cc
 
 CFLAGS	= -Wall -Wextra -Werror
@@ -29,11 +25,10 @@ CFLAGS	= -Wall -Wextra -Werror
 all:	${NAME}
 
 .c.o:	
-	${CC} ${CFLAGS} -c -I ${HEAD} $< -o ${<:.c=.o}
+	${CC} ${CFLAGS} -c -I./includes $< -o $@
 
 ${NAME}:	${OBJS}
-			${AR} ${NAME} ${OBJS}
-			${LIB} ${NAME}
+			${CC} ${CFLAGS} -o ${NAME} ${OBJS}
 
 clean:	
 	rm -f ${OBJS}

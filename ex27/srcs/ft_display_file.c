@@ -6,12 +6,13 @@
 /*   By: irychkov <irychkov@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/07 18:22:51 by irychkov          #+#    #+#             */
-/*   Updated: 2024/04/07 19:44:07 by irychkov         ###   ########.fr       */
+/*   Updated: 2024/04/07 20:22:32 by irychkov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include <fcntl.h>
+#include "ft.h"
 
 int ft_display_file(char *filename)
 {
