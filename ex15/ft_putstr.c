@@ -6,16 +6,12 @@
 /*   By: irychkov <irychkov@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/27 22:35:40 by irychkov          #+#    #+#             */
-/*   Updated: 2024/03/27 23:03:59 by irychkov         ###   ########.fr       */
+/*   Updated: 2024/04/14 21:56:51 by irychkov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-/* #include <stdio.h>
-#include <unistd.h>
-void ft_putchar(char c)
-{
-	write(1, &c, 1);
-} */
+void ft_putchar(char c);
+
 void	ft_putstr(char *str)
 {
 	int i;
@@ -28,6 +24,13 @@ void	ft_putstr(char *str)
 	}
 }
 /* 
+#include <stdio.h>
+#include <unistd.h>
+void ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
+
 int main() {
 	char *test_string = "Hello, world!";
 
