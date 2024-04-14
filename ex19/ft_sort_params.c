@@ -6,16 +6,11 @@
 /*   By: irychkov <irychkov@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/03/28 12:17:50 by irychkov          #+#    #+#             */
-/*   Updated: 2024/03/28 12:28:00 by irychkov         ###   ########.fr       */
+/*   Updated: 2024/04/14 22:01:25 by irychkov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-
-void ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+void ft_putchar(char c);
 
 void	ft_putstr(char *str)
 {
@@ -67,3 +62,9 @@ int	main(int argc, char *argv[])
 		k = k + 1;
 	}
 }
+/* #include <unistd.h>
+
+void ft_putchar(char c)
+{
+	write(1, &c, 1);
+} */
