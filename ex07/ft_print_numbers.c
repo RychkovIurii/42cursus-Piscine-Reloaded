@@ -6,17 +6,11 @@
 /*   By: irychkov <irychkov@student.hive.fi>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/02/22 13:01:18 by irychkov          #+#    #+#             */
-/*   Updated: 2024/02/22 15:12:26 by irychkov         ###   ########.fr       */
+/*   Updated: 2024/04/14 21:53:09 by irychkov         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <unistd.h>
-/*
-void	ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
-*/
+void	ft_putchar(char c);
 
 void	ft_print_numbers(void)
 {
@@ -29,9 +23,14 @@ void	ft_print_numbers(void)
 		c++;
 	}
 }
-/*
+/* #include <unistd.h>
+
+void	ft_putchar(char c)
+{
+	write(1, &c, 1);
+}
+
 int	main(void)
 {
 	ft_print_numbers();
-}
-*/
+} */
